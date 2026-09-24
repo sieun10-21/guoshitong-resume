@@ -1,0 +1,10 @@
+# 二进制文件不做行尾转换，避免 ASCII 编码简历损坏
+*.docx binary
+*.doc  binary
+*.pdf  binary
+
+# 文本文件统一使用 LF
+*.html text eol=lf
+*.md   text eol=lf
+*.js   text eol=lf
+*.css  text eol=lf
